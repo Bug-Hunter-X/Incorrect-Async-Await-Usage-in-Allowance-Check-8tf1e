@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dapp development involving incorrect usage of async/await within promise handling. The bug involves attempting to perform comparisons within a .then block without waiting for the promise to resolve.  The solution illustrates how to correctly incorporate await for proper asynchronous operation.
